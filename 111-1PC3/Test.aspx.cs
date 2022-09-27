@@ -15,7 +15,7 @@ namespace _111_1PC3
             int i_Clothes = 300;
             int i_Hat = 350;
             int i_Pants = 400;
-            int sum = i_Clothes + i_Hat + i_Pants;
+            int sum = i_Clothes*7 + i_Hat*8 + i_Pants*9;
             Response.Write("sum");
         }
     }
